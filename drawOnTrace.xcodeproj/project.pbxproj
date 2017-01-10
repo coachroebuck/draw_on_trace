@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		705986BE1E252E8200E9CE79 /* UIImage+TextDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 705986BD1E252E8200E9CE79 /* UIImage+TextDrawing.m */; };
+		705986C11E2530BD00E9CE79 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 705986C01E2530BD00E9CE79 /* UIView+Extras.m */; };
 		70721D771D80980000892EFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70721D761D80980000892EFB /* main.m */; };
 		70721D7A1D80980000892EFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70721D791D80980000892EFB /* AppDelegate.m */; };
 		70721D7D1D80980000892EFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70721D7C1D80980000892EFB /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		705986BC1E252E8200E9CE79 /* UIImage+TextDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TextDrawing.h"; sourceTree = "<group>"; };
+		705986BD1E252E8200E9CE79 /* UIImage+TextDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TextDrawing.m"; sourceTree = "<group>"; };
+		705986BF1E2530BD00E9CE79 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		705986C01E2530BD00E9CE79 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		70721D721D80980000892EFB /* drawOnTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawOnTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70721D761D80980000892EFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70721D781D80980000892EFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +73,10 @@
 				70721D831D80980000892EFB /* LaunchScreen.storyboard */,
 				70721D861D80980000892EFB /* Info.plist */,
 				70721D751D80980000892EFB /* Supporting Files */,
+				705986BC1E252E8200E9CE79 /* UIImage+TextDrawing.h */,
+				705986BD1E252E8200E9CE79 /* UIImage+TextDrawing.m */,
+				705986BF1E2530BD00E9CE79 /* UIView+Extras.h */,
+				705986C01E2530BD00E9CE79 /* UIView+Extras.m */,
 			);
 			path = drawOnTrace;
 			sourceTree = "<group>";
@@ -105,7 +115,7 @@
 		70721D6A1D80980000892EFB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Michael Roebuck";
 				TargetAttributes = {
 					70721D711D80980000892EFB = {
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				70721D7D1D80980000892EFB /* ViewController.m in Sources */,
+				705986BE1E252E8200E9CE79 /* UIImage+TextDrawing.m in Sources */,
 				70721D7A1D80980000892EFB /* AppDelegate.m in Sources */,
 				70721D771D80980000892EFB /* main.m in Sources */,
+				705986C11E2530BD00E9CE79 /* UIView+Extras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +203,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -236,8 +250,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -302,6 +318,7 @@
 				70721D8B1D80980000892EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
